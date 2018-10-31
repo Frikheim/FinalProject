@@ -1,0 +1,94 @@
+/* Header & body */
+header {
+    background-image: url(tellus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 5% 20%;
+    width: 100%;
+    height: 70vh;
+}
+
+body {
+    margin: 0;
+}
+
+.tellus {
+    padding-top: 4%;
+}
+
+.tellus h1{
+    background-color: rgba(255, 255, 255, 0.65);
+    margin: 0;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+    font-size: 80px;
+}
+
+/* Nav */
+.meny {
+    width: 100%;
+}
+
+.meny h1{
+    display: inline-block;
+    border: solid;
+    padding: 1%;
+    width: 22.55%;
+    text-align: center;
+    margin: 0;    
+}
+
+
+
+
+/* Body for Problemstilling */
+
+
+/* Body for Målgrupper */
+.malgruppeinnhold {
+    display: flex;
+}
+
+.malmain{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.malmeny {
+    position: sticky;
+    width: 30%;
+    text-decoration: none;
+    border: solid;
+    height: 50vh;
+    top: 0;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+
+.malmeny h2{
+    padding-bottom: 5%;
+}
+
+/* Body for Videre utvikling */
+
+.videreutviklinginnhold {
+    margin-left: 2%;
+}
+
+.bokser {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.boks1, .boks2, .boks3, .boks4, .boks5, .boks5, .boks6{
+    border: solid;
+    width: 30%;
+    display: inline-grid;
+    margin-right: 2%;
+}
+
+.boks1, .boks1, .boks3 {
+    margin-bottom: 2%;
+}
