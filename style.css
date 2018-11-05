@@ -154,7 +154,7 @@ body {
     color: white;
     box-shadow: 5px 7px 53px -21px rgba(0,0,0,0.75);
     line-height: 22px;
-    height: 50vh;
+    min-height: 50vh;
     
 }
 
