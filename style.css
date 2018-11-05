@@ -12,7 +12,7 @@ body {
     margin: 0;
     background-color: #D3DDE0;
 }
-p { font-size: 3vmin;}
+
 .tellus {
     padding-top: 4%;
 }
@@ -185,8 +185,6 @@ p { font-size: 3vmin;}
         background-position: 55%;
         height: 30vh;   
     }
-    p { font-size: 3vmin;}
-
     
     .tellus{
         padding: 0;
@@ -197,6 +195,10 @@ p { font-size: 3vmin;}
         padding: 0;
         margin: 0;
         font-size: 50px;
+        display: block;
+    position: absolute;
+    left: 25%;
+    top: 10%;
     }
     
     .meny{
