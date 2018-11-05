@@ -12,7 +12,7 @@ body {
     margin: 0;
     background-color: #D3DDE0;
 }
-
+p { font-size: 3vmin;}
 .tellus {
     padding-top: 4%;
 }
@@ -185,6 +185,8 @@ body {
         background-position: 55%;
         height: 30vh;   
     }
+    p { font-size: 3vmin;}
+
     
     .tellus{
         padding: 0;
