@@ -59,7 +59,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     box-shadow: 1px 7px 25px 1px rgba(0,0,0,0.75);
-    padding: 1%;
+    padding: 3%;
 }
 
 /* Body for Problemstilling */
@@ -107,7 +107,6 @@ body {
 }
 */
 .malmain {
-    padding-left: 5%;
 }
 
 .malmain h2{
