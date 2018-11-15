@@ -1,0 +1,199 @@
+/* Header & body */
+header {
+    background-image: url(tellus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 5% 20%;
+    width: 100%;
+    height: 70vh;
+}
+p { 
+    font-size: 3vh;
+}
+h3{
+    padding: 2%;
+}
+body {
+    margin: 0;
+    background-color: #D3DDE0;
+}
+
+.tellus {
+    padding-top: 4%;
+}
+
+.tellus h1{
+    background-color: rgba(255, 255, 255, 0.65);
+    margin: 0;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+    font-size: 80px;
+}
+
+/* Nav */
+.meny {
+    width: 100%;
+}
+
+.meny h1{
+    display: inline-block;
+    padding: 1%;
+    width: 23%;
+    text-align: center;
+    margin: 0;    
+    color: white;
+    background-color: #081161;
+    border-top: solid #4A59DE;
+    border-bottom: solid #4A59DE;
+}
+
+.meny1:hover, .meny2:hover, .meny3:hover {
+    text-decoration: underline;
+    text-decoration-color: #4A59DE;
+}
+
+.meny .meny4{
+    background-color: #4A59DE;
+}
+
+/* Felles for alle sidene */
+.videreutviklinginnhold {
+    background-color: #FCFCFA;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 1px 7px 25px 1px rgba(0,0,0,0.75);
+    padding: 3%;
+}
+
+/* Body for Videre utvikling */
+
+
+.videreutviklinginfo {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+
+
+.boks1, .boks2, .boks3, .boks4, .boks5, .boks5, .boks6{
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    width: 29%;
+    padding-left: 1%;
+    color: white;
+    box-shadow: 5px 7px 53px -21px rgba(0,0,0,0.75);
+    min-height: 50vh;
+    margin-left: 1%;
+    
+}
+
+
+.boks1 {background-color: #B03A2E;}
+
+.boks2 {background-color: #F39C12;}
+
+.boks3 {background-color: #21618C;}
+
+.boks4 {background-color: #229954;}
+
+.boks5 {background-color: #E73C85;}
+
+.boks6 {background-color: #7D3C98;}
+
+
+.bokser1, .bokser2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    display: flex; 
+}
+
+/*RESPONSIVE FOR 1200PX */
+@media only screen and (max-width: 1200px) and (min-width: 767px){
+    
+    h2{
+        font-size: 4vh;
+    }
+    .boks1, .boks2, .boks3, .boks4, .boks5, .boks5, .boks6{
+        width: 98%;
+        margin: 0;
+        margin-top: 2%;
+        padding-right: 1%;
+        
+    }
+    
+    .bokser1, .bokser2{
+        display: block;
+        padding: 0;
+    }
+}
+
+/* RESPONSIVE FOR 768PX */
+
+@media only screen and (max-width: 768px){
+    
+/* Responsive design for header og navbar */
+    header {
+        background-position: 55%;
+        height: 30vh;   
+    }
+    
+    p {
+        font-size: 3vh;
+    }
+    
+    .tellus{
+        padding: 0;
+    }
+    
+    .tellus h1{
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        display: block;
+        position: absolute;
+        left: 25%;
+        top: 10%;
+    }
+    
+    .meny{
+        padding: 0;
+    }
+    
+    .meny h1{
+        display: inline-block;
+        padding: 1.5%;
+        width: 47%;
+        text-align: center;
+        margin: 0;    
+        font-size: 20px;
+    }
+    
+    /* Responsive desivn for videre utvikling-side */
+    .boks1, .boks2, .boks3, .boks4, .boks5, .boks5, .boks6{
+        width: 98%;
+        margin-top: 2%;
+        margin-bottom: 0;  
+    }
+    
+    .videreutviklinginnhold {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bokser1, .bokser2 {
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    
+    .bokser1 p, .bokser2 p{
+        padding-right: 2%;
+    }
+    
+}
