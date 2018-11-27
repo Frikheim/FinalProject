@@ -1,0 +1,299 @@
+@media only screen and (max-width: 500px){
+    
+    /* NAV */
+    
+    .navmenu{
+        margin: 2.2% 0 0 10%;
+        font-size: 2vh;
+    }
+    
+    .navmenu a{
+        margin-right: 6%;
+    }
+    
+    
+    /* SECTION 1 */
+    
+    .section1-text{
+        margin: 25% 2% 25% 2%;
+    }
+    
+    
+    /* SECTION 2*/
+    
+    
+    .section2-container1, .section2-container2{
+        display: block;
+        margin: 0;
+    }
+    
+    .section2-image{
+        text-align: center;
+    }
+    
+    .section2-image img{
+        width: 80vw;
+        height: 80vh;
+    }
+    
+    .section2-image p{
+        width: auto;
+    }
+    
+    
+    /* SECTION 3 */
+    
+    .section3 img{
+        display: none;
+    }
+    
+    .section3 h1{
+        line-height: 7vh;
+    }
+    
+    .section3{
+        margin: 0;
+    }
+    
+    .section3-text{
+        width: auto;
+        margin: 0;
+    }
+    
+    /* Section 4 */
+    
+    .section4{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section4-text{
+        grid-row-start: 0;
+        grid-row-end: 1;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .section4-image{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+    }
+    .image-4{
+        width: 80vw;
+        height: 80vh;
+    }
+    
+     /* Section 5 */
+    
+    .section5{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section5-text{
+        grid-row-start: 0;
+        grid-row-end: 1;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .section5-image{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+    }
+    
+     /* Section 6 */
+    
+    .section6{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section6-text{
+        grid-row-start: 0;
+        grid-row-end: 1;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .section6-image{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+    }
+    
+    
+    /* FOOTER */
+    
+    footer{
+        font-size: 2.8vh;
+    }
+}
+
+
+/* RESPONSIVE 501PX - 768PX */
+
+@media only screen and (min-width: 501px) and (max-width: 768px){
+
+       /* NAV */
+    
+    .navmenu{
+        margin: 1% 0 0 20%;
+        font-size: 2.3vh;
+    }
+    
+    .navmenu a{
+        margin-right: 10%;  /* MÅ ENDRES PÅ AF */
+    }
+    
+    
+    /* SECTION 1 */
+    
+    .section1-text{
+        margin: 20% 2% 5% 2%;
+    }
+    
+    
+    /* SECTION 2*/
+    
+    .section2-container1, .section2-container2{
+        margin: 0;
+        margin-left: 8%;
+    }
+    
+    .section2-image{
+        text-align: center;
+    }
+    
+    .section2-image img{
+        width: 25vw;
+    }
+    
+    .section2-image p{
+        width: auto;
+    }
+    
+    
+    /* SECTION 3 */
+    
+    .section3 img{
+        display: none;
+    }
+    
+    .section3 h1{
+        line-height: 7vh;
+    }
+    
+    .section3{
+        margin: 0;
+    }
+    
+    .section3-text{
+        width: auto;
+        margin: 0;
+    }
+    
+    .section3 p{
+        padding-right: 2%;
+    }
+    
+      /* Section 4 */
+    
+    .section4{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section4-text{
+        grid-row-start: 0;
+        grid-row-end: 1;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .section4-image{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+    }
+    
+    .image-4{
+        width: 200%;
+        height: 100%;
+    }
+     /* Section 5 */
+    
+    .section5{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section5-text{
+        grid-row-start: 0;
+        grid-row-end: 1;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .section5-image{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+    }
+    
+     /* Section 6 */
+    
+    .section6{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section6-text{
+        grid-row-start: 0;
+        grid-row-end: 1;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .section6-image{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+    }
+    
+    /* FOOTER */
+    footer{
+        font-size: 3vh;
+    }
+    
+}
+
+
+/* RESPONSIVE 1440PX - 2560PX */
+
+@media only screen and (min-width: 1440px) and (max-width: 2560px){
+    
+    /* BODY */
+    
+    body{
+        font-size: 3vh;
+    }
+    
+    
+    /* SECTION 2*/
+    
+    .section2-container1, .section2-container2{
+        margin-left: 8%;
+    }
+    
+    .section2-image img{
+        height: 55vh;
+        width: 20vw;
+    }
+    
+    .section2-image{
+        padding: 5%;
+    }
+}

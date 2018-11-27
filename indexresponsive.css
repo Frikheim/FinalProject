@@ -1,0 +1,356 @@
+/* RESPONSIVE 375PX */
+
+@media only screen and (max-width: 375px){
+       /* NAV */
+    
+    nav{
+        margin-top: -7%;
+    }
+    
+    .navmenu{
+        margin: 3.8% 0 0 10%;
+        font-size: 1.8vh;
+    }
+    
+    .navmenu a{
+        margin-right: 6%;
+    }
+    
+    
+    /* HEADER */
+    
+    .section1{
+        display: block;
+        margin: 0 0 10% 0;
+    }
+    
+    .section1 img{
+        width: 60vw;
+        height: 35vh;
+        margin-left: 20%;
+    }
+    
+    .section1-text{
+        margin: 0;
+    }
+    
+    
+    /* SECTION 2 */
+    
+    .section2{
+        display: block;
+        margin: 0;
+        padding: 2%;
+    }
+    
+    .section2-text{
+        width: auto;
+    }
+    
+    .section2-image{
+        margin: 0;
+        text-align: center;
+    }
+    
+    .section2-image img{
+        height: 40vh;
+        width: 90vw;
+    }
+    
+    
+    /* SECTION 3 */
+    
+    .section3-image{
+        display: none;
+    }
+    
+    .section3 h1{
+        line-height: 7vh;
+    }
+    
+    .section3{
+        margin: 0;
+        padding: 2%;
+    }
+    
+    .section3-text{
+        width: auto;
+        margin: 0;
+    }
+    
+    
+    /* FOOTER */
+    footer{
+        font-size: 2.8vh;
+    }
+    
+}
+
+
+/* RESPONSIVE 367PX - 425PX */
+
+@media only screen and (min-width: 367px) and (max-width: 425px){
+
+    /* NAV */
+    
+    nav{
+        font-size: 2vh;
+    }
+    
+    .navmenu{
+        margin: 0.3% 0 0 10%;
+        font-size: 1.8vh;
+        margin-left: 7%;
+    }
+    
+    .navmenu a{
+        margin-right: 10%;
+    }
+    
+    
+    
+    /* HEADER */
+    
+    .section1{
+        display: block;
+        margin: 0;
+        margin-top: 5%;
+    }
+    
+    .section1 img{
+        width: 40vw;
+        height: 30vh;
+        margin-left: 30%;
+    }
+    
+    .section1-text{
+        margin: 0;
+    }
+    
+    
+    /* SECTION 2 */
+    
+    .section2{
+        display: block;
+        margin: 20% 10% 0 10%;
+        padding-left: 2%;
+    }
+    
+    .section2-text{
+        width: auto;
+    }
+    
+    .section2-image{
+        margin: 0;
+        text-align: center;
+    }
+    
+    .section2-image img{
+        height: 40vh;
+        width: 70vw;
+    }
+    
+    
+    /* SECTION 3 */
+    
+    .section3-image{
+        display: none;
+    }
+    
+    .section3{
+        margin: 5% 10% 0 10%;
+        padding-left: 2%;
+    }
+    
+    .section3-text{
+        width: auto;
+        margin: 0;
+    }
+    
+    
+    /* FOOTER */
+    
+    footer{
+        font-size: 2.8vh;
+    }
+    
+}
+
+
+/* RESPONSIVE 426PX - 550PX */
+
+@media only screen and (min-width: 426px) and (max-width: 600px){
+
+    /* NAV */
+    
+    nav{
+        font-size: 2.8vh;
+    }
+    
+    .navmenu{
+        margin-left: 7%;
+    }
+    
+    .navmenu a{
+        margin-right: 10%;
+    }
+    
+    
+    /* HEADER */
+    
+    .section1{
+        display: block;
+        margin: 0;
+        margin-top: 5%;
+    }
+    
+    .section1 img{
+        width: 40vw;
+        height: 50vh;
+        margin-left: 30%;
+    }
+    
+    .section1-text{
+        margin: 0;
+    }
+    
+    
+    /* SECTION 2 */
+    
+    .section2{
+        display: block;
+        margin: 20% 10% 0 10%;
+        padding-left: 2%;
+        
+    }
+    
+    .section2-text{
+        width: auto;
+        padding-left: 4%;
+    }
+    
+    .section2-image{
+        margin: 0;
+        text-align: center;
+    }
+    
+    .section2-image img{
+        height: 40vh;
+        width: 70vw;
+    }
+    
+    
+    /* SECTION 3 */
+    
+    .section3-image{
+        display: none;
+    }
+    
+
+    
+    .section3{
+        margin: 5% 10% 0 10%;
+    }
+    
+    .section3-text{
+        width: auto;
+        margin: 0;
+    }
+    
+}
+
+
+/* RESPONSIVE 551PX - 768PX */
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+
+    /* NAV */
+    
+    nav{
+        font-size: 3vh;
+    }
+    
+    .navmenu{
+        margin-left: 25%;
+    }
+    
+    .navmenu a{
+        margin-right: 10%;
+    }
+    
+    
+    /* HEADER */
+    
+    .section1{
+        display: block;
+        margin: 0;
+        margin-top: 5%;
+    }
+    
+    .section1 img{
+        width: 40vw;
+        height: 50vh;
+        margin-left: 30%;
+    }
+    
+    .section1-text{
+        margin: 0;
+    }
+    
+    
+    /* SECTION 2 */
+    
+    .section2{
+        display: block;
+        margin: 20% 10% 0 10%;
+        padding: 0;
+    }
+    
+    .section2-text{
+        width: auto;
+        padding: 5% 2% 0 5%;
+    }
+    
+    .section2-image{
+        margin: 0;
+        text-align: center;
+    }
+    
+    .section2-image img{
+        height: 70vh;
+        width: 70vw;
+    }
+    
+    
+    /* SECTION 3 */
+    
+    .section3-image{
+        display: none;
+    }
+    
+
+    
+    .section3{
+        margin: 5% 10% 0 10%;
+        padding: 5%;
+    }
+    
+    .section3-text{
+        width: auto;
+        margin: 0;
+    }
+    
+}
+
+    
+/* RESPONSIVE 1440PX - 2560PX */
+
+@media only screen and (min-width: 1440px) and (max-width: 2560px){
+    
+    /* NAV */
+    
+    nav{
+        font-size: 2.6vh;
+    }
+    
+}

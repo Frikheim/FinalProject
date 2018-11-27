@@ -1,0 +1,136 @@
+/* RESPONSIVE 329PX */
+
+@media only screen and (max-width: 329px){
+      
+    /* NAV */
+    
+    .navmenu{
+        margin: 3.5% 0 0 11%;
+        font-size: 1.9vh;
+    }
+    
+    .navmenu a{
+        margin-right: 6%;
+    }
+    
+    a.last{
+        margin-right: 0;
+    }
+     
+    .navname{
+        padding-left: 1%;
+    }
+    
+    /* SECTION */
+    
+    .section-container{
+        margin-left: 2%;
+        font-size: 2.9vh;
+    }
+    
+    
+    .section-container h1, h3{
+        text-align: center;
+    }
+
+    .info{
+        font-size: 2vh;
+    }
+    
+    .email{
+        margin-left: 10%;
+    }
+    
+    
+    
+    /* FOOTER */
+    footer{
+        font-size: 2vh;
+        position: fixed;
+        bottom: 0;
+    }
+    
+}
+
+
+
+/* RESPONSIVE 330PX - 375PX */
+
+@media only screen and (min-width: 330px) and (max-width: 375px){
+
+    /* NAV */
+    
+    .navmenu{
+        margin: 1% 0 0 10%;
+        font-size: 2.5vh;
+    }
+    
+    
+    .navmenu a{
+        margin-right: 9%;
+    }
+    
+    
+    /* SECTION */
+    
+    .section-container{
+        margin-left: 6%;
+    }
+    
+    .section-container h1, h3{
+        text-align: center;
+    }
+    
+    .email{
+        margin-left: 5%;
+    }
+    
+    /* FOOTER */
+    footer{
+        font-size: 2vh;
+    }
+    
+}
+
+/* RESPONSIVE 376PX - 425PXPX */
+
+@media only screen and (min-width: 376px) and (max-width: 425px){
+        
+    /* NAV */
+    
+    .navmenu{
+        margin: 0.3% 0 0 10%;
+        font-size: 2.7vh;
+    }
+    
+    .navmenu a{
+        margin-right: 10%;
+    }
+    
+    
+    /* SECTION */
+    
+    .section-container{
+        margin-left: 5%;
+    }
+    
+    
+    /* FOOTER */
+    
+    footer{
+        font-size: 2vh;
+    }
+    
+}
+
+
+/* RESPONSIVE 1440PX - 2560PX */
+
+@media only screen and (min-width: 1440px) and (max-width: 2560px){
+    
+    /* NAV */
+    
+    nav{
+        font-size: 2.6vh;
+    }
+}

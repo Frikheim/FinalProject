@@ -1,0 +1,199 @@
+/* BODY */
+
+body {
+    margin: 0;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    letter-spacing: 0.1em;
+    
+}
+
+body p{
+    line-height: 5vh;
+    font-size: 3vh;
+}
+
+
+/* NAV */
+
+nav{
+    background-color: rgb(209, 209, 224);
+    display: flex;
+    box-shadow: 0px 8px 23px -8px rgba(0,0,0,0.75);;
+    color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.navname{
+    padding-left: 5%;
+    width: 20%;
+}
+
+.navname a{
+    text-decoration: none;
+}
+
+.navname a:hover{
+    text-decoration: none;
+}
+
+.navmenu{
+    margin: 0 5% 0 50%;
+    width: 60%;
+    display: inline-flex;
+}
+
+.navmenu a{
+    color:black;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.navmenu a:hover {
+    background-color: white;
+    text-decoration: underline rgb(35, 23, 183);
+}
+
+.navmenu a:link{
+    color:black;
+}
+
+.navmenu a:visited{
+    color:rgb(6, 7, 64);
+}
+
+
+/* SECTION 1 */
+
+.section1{
+    background-color:rgb(130, 95, 177,0.6);
+    padding: 8% 0 8% 0;
+    text-align: center;
+
+}
+
+.section1 h1{
+    font-size: 6vh;
+}
+
+.section1 h2{
+    margin: 0 20% 0 20%;
+    font-weight: 300;
+    line-height: 6vh;
+}
+
+
+
+
+
+/* SECTION 2*/
+
+.section2{
+    padding: 4% 15% 4% 10%;
+    background-color: rgb(219, 214, 226, 0.8);
+}
+
+.section2 p{
+    margin-right: 10%;
+}
+
+
+/* SECTION 3 */
+
+.section3{
+    padding: 4% 5% 4% 15%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.section3-text{
+    width: 60%;
+}
+
+.section3-image img{
+    width: 15vw;
+    height: 60vh;
+    margin-left: 15%;
+}
+
+
+/* SECTION 4 */
+
+.section4{
+    padding: 4% 5% 4% 15%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.section4-text{
+    width: 60%;
+    margin-left: 5%;
+}
+
+.section4-image img{
+    width: 15vw;
+    height: 60vh;
+}
+
+/* SECTION 5 */
+
+.section5{
+    padding: 4% 5% 4% 15%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.section5-text{
+    width: 60%;
+}
+
+.section5-image img{
+    width: 15vw;
+    height: 60vh;
+    margin-left: 15%;
+}
+
+
+/* SECTION 6 */
+
+.section6{
+    padding: 4% 5% 4% 15%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.section6-text{
+    width: 60%;
+    margin-left: 5%;
+}
+
+.section6-image img{
+    width: 15vw;
+    height: 60vh;
+}
+
+
+/* SECTION 7*/
+
+.section7{
+    padding: 4% 15% 4% 10%;
+    margin-top: 5%;
+    background-color: rgb(230, 230, 230, 0.7);
+}
+
+.section7 p{
+    margin-right: 10%;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    background-color: rgb(119, 136, 153,0.4);
+    font-size: 3vh;
+}
+
+footer p{
+    margin: 0;
+    padding: 2% 0 2% 0;
+}

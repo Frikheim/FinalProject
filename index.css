@@ -1,0 +1,173 @@
+/* BODY */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    background-image: linear-gradient(rgb(130, 95, 177), white);
+    letter-spacing: 0.1em;
+     
+}
+
+footer a{
+    color: black;
+}
+
+/* NAV */
+
+nav{
+    background-color: rgb(209, 209, 224);
+    display: flex;
+    box-shadow: 0px 8px 23px -8px rgba(0,0,0,0.75);;
+    color: black;
+    position: fixed;
+    width: 100%;
+    margin-top: -6%;
+}
+
+.navname{
+    padding-left: 5%;
+    width: 20%;
+}
+
+.navname a{
+    text-decoration: none;
+}
+
+.navname a:hover{
+    text-decoration: none;
+}
+
+.navmenu{
+    margin: 0 5% 0 50%;
+    width: 60%;
+    display: inline-flex;
+}
+
+.navmenu a{
+    color:black;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.navmenu a:hover {
+	background-color: white;
+    text-decoration: underline rgb(35, 23, 183);
+}
+
+.navmenu a:link{
+    color:black;
+}
+.navmenu a:visited{
+    color:rgb(6, 7, 64);
+}
+
+
+/* HEADER */
+
+.section1{
+    margin-top: 6%;
+    margin-bottom: 5%;
+    display: flex;
+    margin-left: 20%;
+}
+
+.section1 img{
+    height: 40vh;
+    width: 20vw;
+    margin-top: 10%;
+}
+
+.section1-text{
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 3vh;
+}
+
+
+/* SECTION 2 */ 
+
+
+.section2{
+    display: flex;
+    padding-left: 10%;
+    margin-top: 10%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    background-color: rgb(230, 230, 230,0.7);
+}
+
+.section2-text{
+    width: 40%;
+    line-height: 4vh;
+    font-size: 3vh;
+}
+
+.section2-text h1{
+    line-height: 6vh;
+}
+
+
+.section2-image{
+    margin: 5% 0 0 5%;
+}
+
+
+
+.section2-image p{
+    text-align: center;
+}
+
+.section2 img{
+    height: 50vh;
+    width: 35vw;
+    box-shadow: 2px 2px 5px gray;
+}
+
+
+/* SECTION 3 */
+
+.section3-container{
+    margin-top: 10%;
+}
+
+.section3{
+    background-color: white;
+    display: flex;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.section3-text{
+    width: 40%;
+    line-height: 4vh;
+    margin-left: 5%;
+    font-size: 3vh;
+}
+
+.section3-text h1{
+    line-height: 6vh;
+}
+
+.section3 img{
+    height: 50vh;
+    width: 35vw;
+    margin-top: 5%;
+    box-shadow: 2px 2px 5px gray;
+}
+
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    background-color: rgb(119, 136, 153, 0.3);
+    font-size: 3vh;
+    
+}
+
+footer p{
+    margin: 0;
+    padding: 2% 0 2% 0;
+}
