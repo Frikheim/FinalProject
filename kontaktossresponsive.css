@@ -5,27 +5,34 @@
     /* NAV */
     
     .navmenu{
-        margin: 3.5% 0 0 11%;
-        font-size: 1.9vh;
+        margin: 2% 0 0 14%;
+        font-size: 1.8vh; 
+        display: grid;
+        grid-template-columns: 0.85fr;
     }
     
-    .navmenu a{
-        margin-right: 6%;
+    .navmenu h1{
+        margin: 2% 0 0 0;
     }
     
-    a.last{
-        margin-right: 0;
+    .nav1{
+        grid-row-start: 0;
+        grid-row-end: 1;
+        
     }
-     
-    .navname{
-        padding-left: 1%;
+
+    .nav2{
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
+    
     
     /* SECTION */
     
     .section-container{
         margin-left: 2%;
         font-size: 2.9vh;
+        padding-top: 15%;
     }
     
     
@@ -61,65 +68,119 @@
     /* NAV */
     
     .navmenu{
-        margin: 1% 0 0 10%;
-        font-size: 2.5vh;
+        margin: 2% 0 0 14%;
+        font-size: 1.8vh; 
+        display: grid;
+        grid-template-columns: 0.85fr;
     }
     
-    
-    .navmenu a{
-        margin-right: 9%;
+    .navmenu h1{
+        margin: 2% 0 0 0;
     }
     
+    .nav1{
+        grid-row-start: 0;
+        grid-row-end: 1;
+        
+    }
+
+    .nav2{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
     
     /* SECTION */
     
     .section-container{
-        margin-left: 6%;
+        margin-left: 2%;
+        font-size: 2.9vh;
+        padding-top: 15%;
     }
+    
     
     .section-container h1, h3{
         text-align: center;
     }
+
+    .info{
+        font-size: 2.3vh;
+    }
     
     .email{
-        margin-left: 5%;
+        margin-left: 10%;
     }
+    
+    
     
     /* FOOTER */
     footer{
-        font-size: 2vh;
+        font-size: 2.5vh;
+        position: fixed;
+        bottom: 0;
     }
     
 }
 
-/* RESPONSIVE 376PX - 425PXPX */
+
+
+/* RESPONSIVE 376PX - 425PX */
 
 @media only screen and (min-width: 376px) and (max-width: 425px){
         
     /* NAV */
     
     .navmenu{
-        margin: 0.3% 0 0 10%;
-        font-size: 2.7vh;
+        margin: 2% 0 0 14%;
+        font-size: 1.8vh; 
+        display: grid;
+        grid-template-columns: 0.85fr;
     }
     
-    .navmenu a{
-        margin-right: 10%;
+    .navmenu h1{
+        margin: 2% 0 0 0;
+    }
+    
+    .nav1{
+        grid-row-start: 0;
+        grid-row-end: 1;
+        
+    }
+
+    .nav2{
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
     
     
     /* SECTION */
     
     .section-container{
-        margin-left: 5%;
+        margin-left: 2%;
+        font-size: 2.9vh;
+        padding-top: 15%;
     }
+    
+    .section-container h1, h3{
+        text-align: center;
+    }
+
+    .info{
+        font-size: 2.8vh;
+    }
+    
+    .email{
+        margin-left: 10%;
+    }
+    
     
     
     /* FOOTER */
-    
     footer{
-        font-size: 2vh;
+        font-size: 2.5vh;
+        position: fixed;
+        bottom: 0;
     }
+    
     
 }
 
@@ -132,5 +193,9 @@
     
     nav{
         font-size: 2.6vh;
+    }
+    
+    .navmenu{
+        margin-left: 40%;
     }
 }

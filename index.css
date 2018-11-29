@@ -5,8 +5,9 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial;
     background-image: linear-gradient(rgb(130, 95, 177), white);
     letter-spacing: 0.1em;
-     
 }
+
+:focus{outline-color: black;}
 
 footer a{
     color: black;
@@ -19,14 +20,19 @@ nav{
     display: flex;
     box-shadow: 0px 8px 23px -8px rgba(0,0,0,0.75);;
     color: black;
-    position: fixed;
     width: 100%;
-    margin-top: -6%;
+    position: fixed;
+    top: 0;
 }
 
 .navname{
     padding-left: 5%;
     width: 20%;
+}
+
+.navname h1{
+    margin: 2% 0 0 0;
+    font-size: 7vh;
 }
 
 .navname a{
@@ -38,25 +44,25 @@ nav{
 }
 
 .navmenu{
-    margin: 0 5% 0 50%;
+    margin-left: 25%;
     width: 60%;
-    display: inline-flex;
 }
 
 .navmenu a{
     color:black;
     margin-right: 10%;
     text-decoration: none;
+    display: inline-block;
 }
 
 .navmenu a:hover {
-	background-color: white;
     text-decoration: underline rgb(35, 23, 183);
 }
 
 .navmenu a:link{
     color:black;
 }
+
 .navmenu a:visited{
     color:rgb(6, 7, 64);
 }
@@ -68,20 +74,13 @@ nav{
     margin-top: 6%;
     margin-bottom: 5%;
     display: flex;
-    margin-left: 20%;
-}
-
-.section1 img{
-    height: 40vh;
-    width: 20vw;
-    margin-top: 10%;
-}
-
-.section1-text{
-    margin-right: 10%;
-    text-align: center;
-    margin-top: 2%;
+    margin-left: 32%;
     font-size: 3vh;
+    text-align: center;
+}
+
+.section1 h1{
+    font-size: 10vh;
 }
 
 
@@ -109,12 +108,7 @@ nav{
 
 
 .section2-image{
-    margin: 5% 0 0 5%;
-}
-
-
-
-.section2-image p{
+    margin: 8% 0 0 5%;
     text-align: center;
 }
 
@@ -150,10 +144,14 @@ nav{
     line-height: 6vh;
 }
 
+.section3-image{
+    text-align: center;
+        margin-top: 11.5%;
+}
+
 .section3 img{
     height: 50vh;
     width: 35vw;
-    margin-top: 5%;
     box-shadow: 2px 2px 5px gray;
 }
 

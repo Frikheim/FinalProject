@@ -7,6 +7,7 @@ body {
     letter-spacing: 0.1em;
 }
 
+:focus{outline-color: black;}
 
 /* NAV */
 
@@ -16,11 +17,18 @@ nav{
     box-shadow: 0px 8px 23px -8px rgba(0,0,0,0.75);;
     color: black;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .navname{
     padding-left: 5%;
     width: 20%;
+}
+
+.navname h1{
+    margin: 2% 0 0 0;
+    font-size: 7vh;
 }
 
 .navname a{
@@ -32,15 +40,15 @@ nav{
 }
 
 .navmenu{
-    margin: 0 5% 0 50%;
+    margin-left: 25%;
     width: 60%;
-    display: inline-flex;
 }
 
 .navmenu a{
     color:black;
     margin-right: 10%;
     text-decoration: none;
+    display: inline-block;
 }
 
 .navmenu a:hover {
@@ -50,9 +58,11 @@ nav{
 .navmenu a:link{
     color:black;
 }
+
 .navmenu a:visited{
     color:rgb(6, 7, 64);
 }
+
 
 
 /* SECTION */
@@ -74,10 +84,6 @@ nav{
 .email{
     margin-left: 15%;
     width: 25%;
-}
-
-.kontaktinfo{
-    display: none;
 }
 
 
