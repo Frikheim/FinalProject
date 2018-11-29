@@ -1,4 +1,4 @@
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) and (orientation:portrait){
     
     /* NAV */
 
@@ -78,7 +78,7 @@
 
 /* RESPONSIVE 426PX - 609PX */
 
-@media only screen and (min-width: 426px) and (max-width: 609px) and not (orientation: landscape){
+@media only screen and (min-width: 426px) and (max-width: 609px) and (orientation:portrait){
     
     /* NAV */
 
@@ -165,7 +165,7 @@
 
 /* RESPONSIVE 610PX - 768PX */
 
-@media only screen and (min-width: 610px) and (max-width: 768px) and not (orientation: landscape){
+@media only screen and (min-width: 610px) and (max-width: 768px) and (orientation:portrait){
 
        /* NAV */
     
@@ -242,7 +242,7 @@
 
 /* RESPONSIVE 610PX - 768PX */
 
-@media only screen and (min-width: 769px) and (max-width: 800px){
+@media only screen and (min-width: 769px) and (max-width: 800px) and (orientation:portrait){
     
     /* NAV */
     
@@ -392,7 +392,7 @@
 
 /* RESPONSIVE landscape */
 
-@media only screen and (orientation:landscape) {
+@media only screen and (orientation:landscape) and (max-width: 1024px) {
     .navmenu{
         margin: 2% 0 2% 10%; 
         display: flex;
@@ -405,7 +405,7 @@
     
     .navmenu h1{
         margin: 2% 0 0 0;
-        font-size: 5vh;
+        font-size: 4vh;
     }
     
     .section4 p{
@@ -430,6 +430,7 @@
     .section2-text{
         grid-column-start: span 3;
         grid-column-end: 4;
+        font-size: 4vh;
     }
     
     .section3 {
@@ -450,5 +451,6 @@
     .section3-text{
         grid-column-start: span 3;
         grid-column-end: 4;
+        font-size: 4vh;
     }
 }
